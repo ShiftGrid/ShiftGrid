@@ -348,63 +348,11 @@ We wish you all creative success and material well-being!
 <p> </p>                 <br><br>
 
 <!-- GOOGLE FORM FOR FEEDBACK -->
-<script>
-formID = '1yQG7x1tp9dvdvxR-iKTLr6R8zuwbz7_6CD91xiaKuu4'
-(function(_go_) {
-    function Sender(formID, serialize, code0, code200) {
-    console.log('i\'m in ');
-    this.url = 'https://docs.google.com/forms/d/' + formID + '/formResponse';
-    this.data = serialize;
-    this.code0 = code0;
-    this.code200 = code200;
-    }
-
-    Sender.prototype.postData = function() {
-    var self = this;
-    $.ajax({
-        url : self.url,
-        data : self.data,
-        type : "POST",
-        crossDomain : true,
-        dataType : "xml",
-        processData : false,
-        statusCode : {
-        0 : self.code0,
-        200 : self.code200
-        }
-    });
-    };
-    _go_.Sender = Sender;
-})(window);
-
-function postToGoogle() {
-    var serialize = $("#form").serialize();    
-    try {
-      new Sender('SENDER9687XS', serialize, function(e) {
-        console.log(e)
-      }, function(e) {
-        console.log(e)
-      }).postData();
-    } catch (err) {
-      console.log(err);
-    }
-}
-
-$(document).ready(function() {
-    $('#form').submit(function() {
-    event.preventDefault();
-    postToGoogle();
-    });
-});
-</script>
-
-<form id="form" target="_self" onsubmit="" action="https://docs.google.com/forms/d/1yQG7x1tp9dvdvxR-iKTLr6R8zuwbz7_6CD91xiaKuu4" style="text-align:center">
-   <!-- <fieldset>
-        <label>Ask us your question!</label> 
-               <input name="entry.1216472492">
-    </fieldset>-->
-        <button id="send" type="submit">Ask us your question!</button>
-  </form>
+<form  action="https://docs.google.com/forms/d/1yQG7x1tp9dvdvxR-iKTLr6R8zuwbz7_6CD91xiaKuu4">
+            <div>
+                <button id="send" type="submit">Ask us your question!</button>
+            </div>
+</form>
 <!-- GOOGLE FORM FOR FEEDBACK -->
 
 </div>
