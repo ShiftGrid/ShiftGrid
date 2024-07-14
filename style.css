@@ -94,6 +94,7 @@ line-height: 34px;
 margin: 100px auto;
 }
 #cat{
+pointer-events: none;  
 filter: blur(80px) brightness(150);
 opacity: 0.3;
 zoom: 1.2;
