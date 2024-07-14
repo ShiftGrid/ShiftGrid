@@ -109,6 +109,11 @@ margin-top: 220px;
 bottom: -80px;
 }	
 }	
+@media(max-width: 900px){
+#cat{
+display:none;
+}	
+}	
 @media(max-width: 767px){
 .header__nav {
 display: block;
