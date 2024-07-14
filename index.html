@@ -6,7 +6,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css" type="text/css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body id="test">
@@ -47,18 +46,18 @@ Good luck, friends!
 
 
 <script>
-            if('ontouchstart'in window){ 
-            } else {
-            document.onmousemove = function (){
-            document.getElementsByTagName('body')[0].insertAdjacentHTML('beforeEnd', '<img src="/sol.png" id="cat">');
-            var cat = document.getElementById('cat');
-            cat.style.position = 'fixed';
- 
-            document.onmousemove = function(event){
-                cat.style.left = event.clientX - 260+'px';
-                cat.style.top = event.clientY - 260+'px';
-            }
-        }
+if('ontouchstart'in window){ 
+} else {
+document.onmousemove = function (){
+document.getElementsByTagName('body')[0].insertAdjacentHTML('beforeEnd', '<img src="/sol.png" id="cat">');
+var cat = document.getElementById('cat');
+cat.style.position = 'fixed';
+
+document.onmousemove = function(event){
+cat.style.left = event.clientX - 260+'px';
+cat.style.top = event.clientY - 260+'px';
+}
+}
 }
 </script>
 	
