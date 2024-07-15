@@ -4,22 +4,22 @@ padding: 0;
 border: 0;
 box-sizing: border-box;
 }
-::-webkit-scrollbar {
+::-webkit-scrollbar{
 width: 5px;
 }
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
 border-radius: 10px;
 -webkit-box-shadow: inset 0 0 500px #0f172a;
 background-color: rgba(grey, 0.1);
 }
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track{
 -webkit-box-shadow: inset 0 0 500px #333;
 border-radius: 10px;
 }
-html {
+html{
 height: 100%;
 }
-body {
+body{
 width: 100%;
 background: #0f172a;
 color: #ccc;
@@ -32,12 +32,12 @@ h2{text-align:center;
 margin-top: 40px;
 margin-bottom:40px;
 }
-a {
+a{
 color: #ccc;
 text-decoration: none;
 font-weight: 100;
 }
-header {
+header{
 position: fixed;
 width: 100%;
 top: 0;
@@ -51,7 +51,7 @@ padding: 5px;
 align-items: center;
 justify-content: space-between;
 }  
-p {
+p, span{
 font-weight: 100;  
 }
 .logo{
@@ -70,18 +70,18 @@ position: relative;
 .content-wrapper{
 width: 100%;
 }
-.header__nav {
+.header__nav{
 position: absolute;
 right: 36px;
 top: -2px;
 display: block;
 }
-.header__menu {
+.header__menu{
 display: flex;
 position: relative;
 z-index: 2;
 }
-.header__menu li {
+.header__menu li{
 list-style: none;
 margin: 0px 0px 0px 36px;
 color: #000;
@@ -124,17 +124,17 @@ box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
 transition: all 0.4s ease;
 left:-100%;
 }
-.header__menu {
+.header__menu{
 display: block;
 }
 .header__nav.open-menu{
 left:0;
 }
-.header__menu li {
+.header__menu li{
 margin: 40px 0px 40px 33px;
 font-size: 14px;
 }
-.menu-burger__header {
+.menu-burger__header{
 position: relative;
 width: 33px;
 height: 35px;
@@ -160,28 +160,28 @@ bottom: 5px;
 .menu-burger__header:before{
 top: 5px;
 }
-.menu-burger__header.open-menu span {
+.menu-burger__header.open-menu span{
 opacity:0; 
 transition: 0.5s; 
 }
-.menu-burger__header.open-menu:before {
+.menu-burger__header.open-menu:before{
 transform: rotate(44deg);
 top: 16px;
 transition: 0.4s;
 }
-.menu-burger__header.open-menu:after {
+.menu-burger__header.open-menu:after{
 transform: rotate(-44deg);
 bottom: 16px;
 transition: 0.4s;
 }
 
-header {
+header{
 height: 60px;
 }
-.content-wrapper {
+.content-wrapper{
 margin-top: 48px;
 }
-.fixed-pade {
+.fixed-pade{
 overflow: hidden;
 }
 .logo{
