@@ -4,7 +4,6 @@ padding: 0;
 border: 0;
 box-sizing: border-box;
 }
-
 ::-webkit-scrollbar {
 width: 5px;
 }
@@ -51,7 +50,8 @@ display: flex;
 padding: 5px;
 align-items: center;
 justify-content: space-between;
-
+p {
+font-weight: 100;  
 }
 .logo{
 width: 240px;
