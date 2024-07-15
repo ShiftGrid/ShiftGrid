@@ -136,13 +136,13 @@ font-size: 14px;
 }
 .menu-burger__header{
 position: relative;
-width: 33px;
+width: 28px;
 height: 35px;
 display: block;
 float: right;
 }
 .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
-height: 3px;
+height: 2px;
 width: 100%;
 position: absolute;
 background: #ccc;
