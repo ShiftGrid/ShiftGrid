@@ -143,7 +143,7 @@ float: right;
 }
 .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
 height: 2px;
-width: 100%;
+width: 110%;
 position: absolute;
 background: #ccc;
 margin: 0 auto;
@@ -155,10 +155,10 @@ top: 16px;
 content: '';
 }
 .menu-burger__header:after{
-bottom: 5px;
+bottom: 8px;
 }
 .menu-burger__header:before{
-top: 5px;
+top: 8px;
 }
 .menu-burger__header.open-menu span{
 opacity:0; 
