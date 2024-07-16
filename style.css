@@ -8,7 +8,7 @@ body {
 background: #0f172a;
 color: #ccc;
 min-height: 100vh;
-font-family: 'Roboto', Helvetica;
+font-family: 'Segoe UI', sans-serif;
 font-size: 14px;
 }
 body::-webkit-scrollbar{
