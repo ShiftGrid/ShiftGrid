@@ -28,8 +28,8 @@ font-family: 'Segoe UI', sans-serif;
 font-size: 18px;
 transition: background-color .5s ease;
 }
-h2{text-align:center;
-margin-top: 40px;
+h2{
+margin-top: 20px;
 margin-bottom:40px;
 }
 a{
@@ -74,7 +74,7 @@ width: 100%;
 .header__nav{
 position: absolute;
 right: 36px;
-top: -2px;
+top: -1px;
 display: block;
 }
 .header__menu{
@@ -86,7 +86,7 @@ z-index: 2;
 list-style: none;
 margin: 0px 0px 0px 36px;
 color: #000;
-font-size: 18px;
+font-size: 16px;
 text-decoration: none;
 }
 .content-wrapper{
@@ -101,17 +101,57 @@ filter: blur(80px) brightness(150);
 opacity: 0.3;
 zoom: 1.2;
 }
-.footer{
-text-align: center;
-width: 100%;
-height: 30px;
-margin-top: 220px;
+.box{
+display: flex;
+flex-wrap: wrap;
+width: 90vw;
+min-height: 100vh;
+margin: 0 auto;
+/*background: #333;*/
+justify-content: center;
+padding-top: 80px;
 }
-@media(min-width: 780px){
-.footer{
-bottom: -80px;
-}	
-}	
+.box::-webkit-scrollbar {
+display:none;
+}
+body::-webkit-scrollbar {
+display:none;
+}
+.c1,.c2,.c3,.c4{
+display:block;
+/*background:#55555514;*/
+min-height:250px;
+}
+.c1, .shell{
+width:48%;
+margin:5px;
+min-height: 98vh;
+}
+.c2,.c3,.c4{
+width:97%;
+margin:10px;
+}
+.c2{
+height:30%;
+}
+.c3{
+height:30%;
+}
+.c4{
+height:30%;
+}
+.footer1,.footer2 {
+display: block;
+position: relative;  
+width: 98%;
+/*background: #55555514;*/
+text-align: center;
+}
+@media(max-width: 767px){
+.c1, .shell{
+width:99%;
+}
+}
 @media(max-width: 767px){
 .header__nav {
 display: block;
@@ -137,8 +177,8 @@ font-size: 14px;
 }
 .menu-burger__header{
 position: relative;
-width: 28px;
-height: 35px;
+width: 33px;
+height: 34px;
 display: block;
 float: right;
 }
@@ -177,7 +217,7 @@ transition: 0.4s;
 }
 
 header{
-height: 60px;
+height: 46px;
 }
 .content-wrapper{
 margin-top: 48px;
@@ -186,7 +226,7 @@ margin-top: 48px;
 overflow: hidden;
 }
 .logo{
-top: 8px;
-height: 40px;
+top: 10px;
+height: 34px;
 }
 }
