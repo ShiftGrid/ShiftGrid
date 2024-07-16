@@ -5,14 +5,14 @@
 <title>ShiftGrid - Automated Trading Systems</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="/style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class = "header">
 <div class="container header__container">
 <div class="logo">
-<img src="file:///C:/Users/NOWHERE/Desktop/site/logo.png" style="height:100%;">
+<img src="/logo.png" style="height:100%;">
 </div>
 <div class="menu-burger__header">
 <span></span>
@@ -81,15 +81,20 @@ $('body').toggleClass('fixed-page');
 });
 </script> 
 <script>
-document.onmousemove = function (){
-document.getElementsByTagName('body')[0].insertAdjacentHTML('beforeEnd', '<img src="file:///C:/Users/NOWHERE/Desktop/site/sol.png" id="cat">');
-var cat = document.getElementById('cat');
-cat.style.position = 'fixed';
-document.onmousemove = function(event){
-cat.style.left = event.clientX - 260+'px';
-cat.style.top = event.clientY - 260+'px';
+            if('ontouchstart'in window){ 
+            } else {
+            document.onmousemove = function (){
+            document.getElementsByTagName('body')[0].insertAdjacentHTML('beforeEnd', '<img src="/sol.png" id="cat">');
+            var cat = document.getElementById('cat');
+            cat.style.position = 'fixed';
+ 
+            document.onmousemove = function(event){
+                cat.style.left = event.clientX - 200+'px';
+                cat.style.top = event.clientY - 200+'px';
+            }
+        }
 }
-}
+</script>
 </script>
 </body>
 </html>
