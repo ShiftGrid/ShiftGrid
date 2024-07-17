@@ -197,3 +197,23 @@ margin: 10px auto 0px auto;
 }
 }
 
+/* Content */
+
+#sg_1{
+filter: drop-shadow(14px 24px 29px #456);
+background-image: url(/shift_1.png);
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: 60px;
+}
+
+/* Content */
+
+
+
+
+
+
+
+
+
