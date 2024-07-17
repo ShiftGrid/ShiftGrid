@@ -141,6 +141,7 @@ height: 34px;
 display: block;
 margin-left: 10px;
 float: right;
+transform: scale(0.8);  
 }
 .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
 height: 2px;
