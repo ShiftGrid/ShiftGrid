@@ -205,7 +205,8 @@ background-image: url(/shift_1.png);
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
-margin-top: 60px;
+margin-top: -30px;
+zoom: 1.7
 }
 
 /* Content */
