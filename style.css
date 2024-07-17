@@ -203,6 +203,7 @@ margin: 10px auto 0px auto;
 filter: drop-shadow(14px 24px 29px #456);
 background-image: url(/shift_1.png);
 background-size: contain;
+background-position: center;
 background-repeat: no-repeat;
 margin-top: 60px;
 }
