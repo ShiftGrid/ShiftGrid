@@ -156,10 +156,10 @@ top: 16px;
 content: '';
 }
 .menu-burger__header:after{
-bottom: 5px;
+bottom: 8px;
 }
 .menu-burger__header:before{
-top: 5px;
+top: 8px;
 }
 .menu-burger__header.open-menu span {
 opacity:0; 
