@@ -215,7 +215,11 @@ zoom: 1.7;
 .footer_1, .footer_2 {display:none;}
 @media(max-width: 767px){
 .socials, .copyright {display:none;}
-.footer_1, .footer_2 {display:block;}  
+.footer_1, .footer_2 {
+display:block;
+line-height: 14px;
+padding-top: 22px;
+}  
 #sg_1{
 filter: drop-shadow(7px 4px 4px #456);
 }
