@@ -99,6 +99,10 @@ max-height: 30vh;
 min-height: 300px;
 margin: 10px;	
 }
+.left_row{
+position:sticky;
+top:80px;  
+} 
 .footer_1, .footer_2{
 width: 100%;
 text-align: center;
